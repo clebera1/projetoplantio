@@ -16,8 +16,9 @@ In this project I need some fields, which is:
 + amount
 
 In addition to CRUD, I implement other features such as:
-*See the more recently variety planted on a bench
-*Search varietys by their name, date, allotment and/or benches
+
+* See the more recently variety planted on a bench
+* Search varietys by their name, date, allotment and/or benches
 
 ## Here is a practical explanation of what we do and why this project may help us:
 
