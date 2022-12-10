@@ -67,7 +67,7 @@ function openModal(edit = false, index = 0){
     }
 
     if (edit) {
-        sLote.value = itens[index].nome
+        sLote.value = itens[index].lote
         sVariedade.value = itens [index].variedade
         sDia.value = itens[index].dia
         sQuantidade.value = itens[index].quantidade
