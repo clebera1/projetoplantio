@@ -52,10 +52,15 @@ function editItem(index){
 }
 
 function deleteItem(index){
-    itens.splice(index, 1)
-    setItensBD()
-    loadItens()
+    let res = confirm('Deseja continuar?')
+    if(res === true){
+        itens.splice(index, 1)
+        setItensBD() 
+        loadItens() 
+    }
 }
+
+
 
 function openModal(edit = false, index = 0){
     modal.classList.add('active')
