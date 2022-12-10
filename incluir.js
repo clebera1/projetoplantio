@@ -12,15 +12,6 @@ const btnSalvar = document.querySelector('#btnSalvar')
 let itens 
 let id
 
-//=============================================
-// Script do filtro da tabela
-
-
-
-
-
-//=================================
-
 
 const getItens = () => JSON.parse(localStorage.getItem('dbfunc')) ?? []
 const setItens = () => localStorage.setItem('dbfunc', JSON.stringify(itens))
