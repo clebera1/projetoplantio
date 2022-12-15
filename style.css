@@ -135,12 +135,16 @@ tbody tr td.acao {
   }
   
   .header span {
-    font-size: 15px;
+    font-size: 10px;
   }
 
   #new {
     padding: 5px;
     font-size: 10px;
+  }
+
+  th {
+    font-size: 7px;
   }
 
   thead tr th.acao {
